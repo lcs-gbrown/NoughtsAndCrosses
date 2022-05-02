@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0ADDD72928206144009FD1F3 /* NoughtsAndCrossesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDD72828206144009FD1F3 /* NoughtsAndCrossesApp.swift */; };
-		0ADDD72B28206144009FD1F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDD72A28206144009FD1F3 /* ContentView.swift */; };
 		0ADDD72D28206154009FD1F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADDD72C28206154009FD1F3 /* Assets.xcassets */; };
 		0ADDD73028206154009FD1F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADDD72F28206154009FD1F3 /* Preview Assets.xcassets */; };
+		0ADDD739282061E0009FD1F3 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDD738282061E0009FD1F3 /* GameBoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0ADDD72528206144009FD1F3 /* NoughtsAndCrosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoughtsAndCrosses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADDD72828206144009FD1F3 /* NoughtsAndCrossesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoughtsAndCrossesApp.swift; sourceTree = "<group>"; };
-		0ADDD72A28206144009FD1F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0ADDD72C28206154009FD1F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ADDD72F28206154009FD1F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0ADDD738282061E0009FD1F3 /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				0ADDD72828206144009FD1F3 /* NoughtsAndCrossesApp.swift */,
-				0ADDD72A28206144009FD1F3 /* ContentView.swift */,
+				0ADDD737282061A6009FD1F3 /* Views */,
+				0ADDD7362820618C009FD1F3 /* Model */,
 				0ADDD72C28206154009FD1F3 /* Assets.xcassets */,
 				0ADDD72E28206154009FD1F3 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				0ADDD72F28206154009FD1F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0ADDD7362820618C009FD1F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0ADDD737282061A6009FD1F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0ADDD738282061E0009FD1F3 /* GameBoardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADDD72B28206144009FD1F3 /* ContentView.swift in Sources */,
 				0ADDD72928206144009FD1F3 /* NoughtsAndCrossesApp.swift in Sources */,
+				0ADDD739282061E0009FD1F3 /* GameBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
