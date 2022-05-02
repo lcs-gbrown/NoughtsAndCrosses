@@ -27,6 +27,8 @@ let state: String
 
 struct TileView_Previews: PreviewProvider {
     static var previews: some View {
+        TileView(state: cross)
+        TileView(state: nought)
         TileView(state: empty)
     }
 }
